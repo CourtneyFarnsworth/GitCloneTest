@@ -1,0 +1,120 @@
+form{
+    /*border: solid;*/
+    width:10%;
+    margin-top: 1.5em;
+    font-size: 4em;
+}
+img{
+    width:100%;
+    height:100%;
+}
+img.perfect-fit {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.petPic{
+    text-align: center !important;
+    align-content: center !important;
+    padding-top: 20px;
+}
+
+.col-lg-12.petPic.row {
+    margin: 0;
+}
+
+.mainPetPic{
+    /* crops img from bottom */
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.myArrows{
+    text-align: center !important;
+    align-content: center !important;
+    font-size: 8em;
+    margin-top: 1em;
+    font-weight: lighter;
+}
+input[type="submit"]{
+    border:none;
+    background-color:white;
+}
+
+.myArrows a:link {
+    color: black!important;
+}
+
+.myArrows a:visited {
+    color: black !important;
+}
+
+.myArrows a:hover {
+    text-decoration: none;
+    color: #b7babf !important;
+}
+
+.myArrows a:active{
+    color: #6e7684 !important;
+}
+
+
+.petInfo {
+    margin-top: 40px;
+    margin-bottom:40px;
+
+}
+
+.petInfo li { 
+    list-style-type: none;
+   text-decoration: none;
+}
+#miles{
+    font-size: .95em;
+}
+.petInfo ul {
+padding-left:0px;
+padding-bottom:15px;
+}
+
+.heart{
+    text-align: right;
+}
+
+#heart{
+    background-color: #f2eff1 !important;
+    color: #f2b0e8; 
+}
+#info{
+    background-color: #f2eff1 !important;
+    color:black;
+}
+
+@media only screen and (max-width: 575px) {
+    .row {
+        flex-wrap: nowrap !important;
+    }
+
+    .myArrows {
+    width: 10% !important;
+    font-size: 3.5em;
+    margin-top: 30%;
+    }
+    
+    .mainPetPic {
+    margin-top: 30px;
+    max-height: 300px;
+    }
+    
+    .petInfo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+}
+
+#littlePaw{
+    color: #303b4f;
+    font-size: 2em;
+}

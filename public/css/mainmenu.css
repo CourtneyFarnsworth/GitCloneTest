@@ -1,0 +1,59 @@
+
+/* Form */
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: -55px;
+  padding: 30px;
+  border-radius: 3px;
+  text-align: center;
+}
+.form button {
+  outline: 0;
+  background: #303b4f;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.form .myButton {
+  position: relative;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 30px 0 15px;
+  padding: 10px;
+  top: 30px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#minilogo{
+  color: #303b4f;
+  text-align: left;
+  font-size: 2em;
+}
+#house{
+  font-size: 3em;
+}
+img{
+  /* Dog Icon */
+  width: 25%!important;
+}
+.buttonLabel{
+  font-size: 1.9em;
+  margin-top: 10px;
+}
+.buttonDescript{
+  font-size: .8em;
+  color:#f2f2f2;
+  margin-top: -30px;
+}

@@ -1,0 +1,53 @@
+img.perfect-fit {
+   /* width: auto;
+    height: auto;*/
+    min-width: 100%;
+    min-height: 100%;
+}
+.petPic{
+	padding-top: 20px;
+
+}
+.mainPetPic{
+	/* crops img from bottom */
+	max-height: 450px;
+    max-width: 500px;    
+	overflow: hidden;
+}
+.petInfo{
+    margin-top: 20px;
+}
+.petInfoDetails {
+    align-content: center!important;
+    /*background-color: #f2f2f2 !important;*/
+    margin-bottom:30px;
+}
+.petInfo li, .petInfoDetails li {
+    list-style-type: none;
+    text-decoration: none;
+}
+.petInfo ul, .petInfoDetails ul {
+    padding-left:0px;
+}
+.petList{
+    margin-top: 10px;
+}
+.card{
+    background-color: #f2f2f2 !important;
+    text-align: left;
+}
+@media only screen and (max-width: 575px) {
+
+    .mainPetPic {
+        margin-top: 10px;
+        max-height: 280px;
+    }
+  
+}
+.adopt{
+    align-content: center;
+}
+#adoptButton{
+    background: black;
+    color: white;
+}
